@@ -66,11 +66,11 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/jugnucode/FilterTamilBot/tree/Koyeb')
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
-AUTO_DELETE = environ.get('AUTO_DELETE', True)
+AUTO_DELETE = environ.get('AUTO_DELETE', False)
 if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "shorturllink.in"
-SHORTNER_API = "66655407c69b36f5f425e49da64888d920cfe3b4"
+SHORTNER_SITE = "tinyfy.in"
+SHORTNER_API = "0f14b6f690410cb1ba9065b86771be8f34e76b99"
 
